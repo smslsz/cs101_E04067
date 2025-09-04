@@ -1,6 +1,7 @@
 ﻿#include <iostream>
 #include <sstream>
 #include <vector>
+#include <algorithm>
 using namespace std;
 int main() {
     string s;
