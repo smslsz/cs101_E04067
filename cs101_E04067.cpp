@@ -3,10 +3,9 @@
 #include <vector>
 using namespace std;
 int main() {
-    while (true) {
+    string s;
+    while (cin >> s) {
         vector<int> digits;
-        string s;
-        cin >> s;
         istringstream iss(s);
         char c;
         while (iss >> c) {
@@ -20,4 +19,5 @@ int main() {
         if (reversedigits == digits) { cout << "YES" << endl; }
         else { cout << "NO" << endl; }
     }
+    return 0；
 }
