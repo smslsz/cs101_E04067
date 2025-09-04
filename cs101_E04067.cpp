@@ -19,5 +19,5 @@ int main() {
         if (reversedigits == digits) { cout << "YES" << endl; }
         else { cout << "NO" << endl; }
     }
-    return 0；
+    return 0;
 }
